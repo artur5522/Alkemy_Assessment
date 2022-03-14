@@ -91,6 +91,6 @@ public class AuthController {
         emailService.sendEmail(registroDTO.getEmail());
         String responseString = "User registered correctly. UserName->".concat(user.getUsername()).concat(", user email-> ").concat(user.getEmail()).concat(". An email has been sent to you, make sure you check your spam folder");
         response = new ObjectResponse(responseString);
-        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(response);
+        return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 }
