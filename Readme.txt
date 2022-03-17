@@ -10,6 +10,6 @@ Challenge Backend - Java Spring Boot
 	-Movies and Characters ARE NOT associated to eachother, you can do it by using the api's functionalities
 	-Swagger documentation in: http://localhost:8080/swagger-ui/
 	-Don't forguet to change your database user and password in application.properties :)
-	-If you are reading this, and you want to run this app and be able to send email with SendGrid when a user is registered, write to me (Arturo, arturofrodriguez11@gmail.com) to give you the ApiKey to configure the application.properties file. You would just need to uncomment line 16 and put the right key (that I will provide).
+	-If you are reading this, and you want to run this app and be able to send email with SendGrid when a user is registered, write an email to me (Arturo, arturofrodriguez11@gmail.com) and I will be happy to give you the ApiKey to configure the application.properties file. You would just need to uncomment line 16 and put the right key (that I will provide).
 Hope everything is clear, let me know any thoughts and comments.
 Cheers
